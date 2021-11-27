@@ -3,7 +3,7 @@ from flask import request, jsonify, make_response
 
 app = flask.Flask(__name__)
 
-app.config["DEBUG"] = True
+# app.config["DEBUG"] = True
 
 # Endpoint per posar noves dades dels sensors
 @app.route("/api/measurements/add", methods=["POST"])
